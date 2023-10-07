@@ -2,7 +2,7 @@
 <idea-plugin>
     <id>com.github.kelinzhou.uikittemplates</id>
     <name>UIKitTemplates</name>
-    <vendor email="6067429@qq.com">Kelin Zhou</vendor>
+    <vendor email="6067429@qq.com" url="https://github.com/kelinZhou/UIKitTemplate">Kelin</vendor>
     <description><![CDATA[
 Provides code template for UIKit.
 The support includes:
@@ -41,8 +41,4 @@ For more information visit the
     <applicationListeners>
         <listener class="com.github.kelinzhou.uikittemplates.listeners.MyApplicationActivationListener" topic="com.intellij.openapi.application.ApplicationActivationListener" />
     </applicationListeners>
-
-    <actions>
-
-    </actions>
 </idea-plugin>
