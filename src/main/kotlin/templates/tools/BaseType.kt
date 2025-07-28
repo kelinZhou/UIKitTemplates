@@ -8,7 +8,7 @@ enum class BaseType {
 
     companion object {
         fun isBaseType(type: kotlin.String): kotlin.Boolean {
-            return values().any { it.name == type }
+            return BaseType.entries.any { it.name == type }
         }
     }
 }
