@@ -22,23 +22,13 @@ For more information visit the
 </ul>
 ]]></change-notes>
 
-    <depends>com.intellij.java</depends>
     <depends>org.jetbrains.android</depends>
-    <depends>org.jetbrains.kotlin</depends>
     <depends>com.intellij.modules.androidstudio</depends>
 
     <resource-bundle>messages.MyBundle</resource-bundle>
-
-    <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="com.github.kelinzhou.uikittemplates.toolWindow.MyToolWindowFactory" id="MyToolWindow" />
-    </extensions>
 
     <!--模板提供者-->
     <extensions defaultExtensionNs="com.android.tools.idea.wizard.template">
         <wizardTemplateProvider implementation="templates.PluginTemplatesProvider" />
     </extensions>
-
-    <applicationListeners>
-        <listener class="com.github.kelinzhou.uikittemplates.listeners.MyApplicationActivationListener" topic="com.intellij.openapi.application.ApplicationActivationListener" />
-    </applicationListeners>
 </idea-plugin>
